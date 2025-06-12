@@ -453,6 +453,454 @@ export const mockRecipes: Recipe[] = [
     rating: 4.8,
     author: 'Chef Romano',
     createdAt: new Date('2024-02-22')
+  },
+  {
+    id: '13',
+    title: 'Naan',
+    description: 'Soft and fluffy traditional Indian flatbread baked in tandoor',
+    image: 'https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Bread',
+    difficulty: 'Medium',
+    cookingTime: 45,
+    servings: 6,
+    ingredients: [
+      '2 cups all-purpose flour',
+      '1 tsp active dry yeast',
+      '1 tsp sugar',
+      '½ tsp salt',
+      '¼ cup plain yogurt',
+      '2 tbsp milk',
+      '2 tbsp oil',
+      'Warm water as needed',
+      'Butter for brushing'
+    ],
+    instructions: [
+      'Mix yeast and sugar in warm water, let foam for 5 minutes.',
+      'Combine flour and salt in a bowl.',
+      'Add yogurt, milk, oil, and yeast mixture to flour.',
+      'Knead into soft dough, cover and rest for 2 hours.',
+      'Divide into 6 portions and roll into oval shapes.',
+      'Cook on hot tawa/skillet for 1-2 minutes per side.',
+      'Brush with butter and serve hot.'
+    ],
+    tags: ['Indian', 'Bread', 'Vegetarian', 'Traditional'],
+    rating: 4.7,
+    author: 'Chef Suresh',
+    createdAt: new Date('2024-02-25')
+  },
+  {
+    id: '14',
+    title: 'Palak Paneer',
+    description: 'Creamy spinach curry with cubes of fresh cottage cheese',
+    image: 'https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Main Course',
+    difficulty: 'Medium',
+    cookingTime: 35,
+    servings: 4,
+    ingredients: [
+      '500g fresh spinach leaves',
+      '250g paneer, cubed',
+      '2 medium onions, chopped',
+      '4 cloves garlic',
+      '1 inch ginger',
+      '2 green chilies',
+      '1 tsp cumin seeds',
+      '1 tsp garam masala',
+      '½ tsp turmeric',
+      '2 tbsp cream',
+      '2 tbsp oil',
+      'Salt to taste'
+    ],
+    instructions: [
+      'Blanch spinach in boiling water for 2 minutes, drain and puree.',
+      'Heat oil, add cumin seeds and let splutter.',
+      'Add onions, ginger-garlic paste, and green chilies.',
+      'Cook until onions are golden brown.',
+      'Add turmeric and garam masala, cook for 1 minute.',
+      'Add spinach puree and simmer for 10 minutes.',
+      'Gently add paneer cubes and cream.',
+      'Simmer for 5 minutes and serve with rice or roti.'
+    ],
+    tags: ['Indian', 'Vegetarian', 'Spinach', 'Paneer', 'Healthy'],
+    rating: 4.6,
+    author: 'Chef Meera',
+    createdAt: new Date('2024-02-26')
+  },
+  {
+    id: '15',
+    title: 'Chole (Chickpea Curry)',
+    description: 'Spicy and tangy chickpea curry, perfect with bhature or rice',
+    image: 'https://images.pexels.com/photos/5560827/pexels-photo-5560827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Main Course',
+    difficulty: 'Medium',
+    cookingTime: 60,
+    servings: 4,
+    ingredients: [
+      '2 cups dried chickpeas (soaked overnight)',
+      '2 large onions, chopped',
+      '3 tomatoes, chopped',
+      '1 tbsp ginger-garlic paste',
+      '2 tsp chole masala',
+      '1 tsp cumin powder',
+      '1 tsp coriander powder',
+      '½ tsp turmeric',
+      '1 tsp red chili powder',
+      '2 bay leaves',
+      '3 tbsp oil',
+      'Fresh cilantro for garnish',
+      'Salt to taste'
+    ],
+    instructions: [
+      'Pressure cook soaked chickpeas with salt until tender.',
+      'Heat oil, add bay leaves and cumin seeds.',
+      'Add onions and cook until golden brown.',
+      'Add ginger-garlic paste, cook for 2 minutes.',
+      'Add tomatoes and cook until soft.',
+      'Add all spices and cook for 3-4 minutes.',
+      'Add cooked chickpeas with their water.',
+      'Simmer for 15-20 minutes until thick.',
+      'Garnish with cilantro and serve hot.'
+    ],
+    tags: ['Indian', 'Vegetarian', 'Protein-rich', 'Spicy', 'Punjabi'],
+    rating: 4.8,
+    author: 'Chef Harpreet',
+    createdAt: new Date('2024-02-27')
+  },
+  {
+    id: '16',
+    title: 'Vegetable Biryani',
+    description: 'Aromatic basmati rice layered with spiced mixed vegetables',
+    image: 'https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Main Course',
+    difficulty: 'Hard',
+    cookingTime: 75,
+    servings: 6,
+    ingredients: [
+      '2 cups basmati rice',
+      '2 cups mixed vegetables (carrots, beans, peas, potatoes)',
+      '2 large onions, sliced',
+      '1 cup yogurt',
+      '2 tsp biryani masala',
+      '1 tsp red chili powder',
+      '½ tsp turmeric',
+      'Pinch of saffron',
+      '¼ cup warm milk',
+      '4 tbsp ghee',
+      'Whole spices (cardamom, cinnamon, bay leaves)',
+      'Fresh mint and cilantro',
+      'Salt to taste'
+    ],
+    instructions: [
+      'Soak rice for 30 minutes. Soak saffron in warm milk.',
+      'Marinate vegetables with yogurt and spices for 30 minutes.',
+      'Deep fry onions until golden and crispy.',
+      'Cook marinated vegetables until 70% done.',
+      'Boil rice with whole spices until 70% cooked.',
+      'Layer rice and vegetables in a heavy-bottomed pot.',
+      'Top with fried onions, saffron milk, and herbs.',
+      'Cover and cook on high for 3 minutes, then low for 45 minutes.',
+      'Let rest for 10 minutes before serving.'
+    ],
+    tags: ['Indian', 'Vegetarian', 'Biryani', 'Aromatic', 'Festival'],
+    rating: 4.7,
+    author: 'Chef Lakshmi',
+    createdAt: new Date('2024-02-28')
+  },
+  {
+    id: '17',
+    title: 'Samosa',
+    description: 'Crispy triangular pastries filled with spiced potato mixture',
+    image: 'https://images.pexels.com/photos/5560844/pexels-photo-5560844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Snack',
+    difficulty: 'Medium',
+    cookingTime: 60,
+    servings: 20,
+    ingredients: [
+      '2 cups all-purpose flour',
+      '4 tbsp oil',
+      '½ tsp salt',
+      '4 large potatoes, boiled and diced',
+      '1 cup green peas',
+      '2 tsp cumin seeds',
+      '1 tsp mustard seeds',
+      '2 green chilies, chopped',
+      '1 tsp ginger, minced',
+      '1 tsp coriander powder',
+      '½ tsp turmeric',
+      '1 tsp garam masala',
+      'Oil for deep frying',
+      'Fresh cilantro, chopped'
+    ],
+    instructions: [
+      'Make dough with flour, oil, salt, and water. Rest for 30 minutes.',
+      'Heat oil, add cumin and mustard seeds.',
+      'Add green chilies and ginger, sauté briefly.',
+      'Add potatoes, peas, and all spices. Mix well and cool.',
+      'Divide dough into small balls and roll into oval shapes.',
+      'Cut each oval in half and form cones.',
+      'Fill with potato mixture and seal edges.',
+      'Deep fry until golden brown and crispy.',
+      'Serve hot with mint or tamarind chutney.'
+    ],
+    tags: ['Indian', 'Snack', 'Fried', 'Street Food', 'Vegetarian'],
+    rating: 4.9,
+    author: 'Chef Ravi',
+    createdAt: new Date('2024-03-01')
+  },
+  {
+    id: '18',
+    title: 'Dosa',
+    description: 'Crispy South Indian crepe made from fermented rice and lentil batter',
+    image: 'https://images.pexels.com/photos/5560788/pexels-photo-5560788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Breakfast',
+    difficulty: 'Hard',
+    cookingTime: 30,
+    servings: 8,
+    ingredients: [
+      '3 cups dosa rice',
+      '1 cup urad dal',
+      '½ tsp fenugreek seeds',
+      '1 tsp salt',
+      'Water as needed',
+      'Oil for cooking'
+    ],
+    instructions: [
+      'Soak rice and urad dal separately for 4-6 hours.',
+      'Grind urad dal with fenugreek seeds to smooth paste.',
+      'Grind rice to slightly coarse paste.',
+      'Mix both batters, add salt, and ferment for 8-12 hours.',
+      'Heat dosa pan and spread batter thinly.',
+      'Drizzle oil around edges and cook until crispy.',
+      'Fold and serve hot with sambar and chutney.'
+    ],
+    tags: ['South Indian', 'Breakfast', 'Fermented', 'Gluten-free', 'Vegetarian'],
+    rating: 4.8,
+    author: 'Chef Krishnan',
+    createdAt: new Date('2024-03-02')
+  },
+  {
+    id: '19',
+    title: 'Idli',
+    description: 'Soft and spongy steamed rice cakes, a South Indian breakfast staple',
+    image: 'https://images.pexels.com/photos/5560789/pexels-photo-5560789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Breakfast',
+    difficulty: 'Medium',
+    cookingTime: 25,
+    servings: 16,
+    ingredients: [
+      '3 cups idli rice',
+      '1 cup urad dal',
+      '½ tsp fenugreek seeds',
+      '1 tsp salt',
+      'Water as needed'
+    ],
+    instructions: [
+      'Soak rice and urad dal separately for 4-6 hours.',
+      'Grind urad dal with fenugreek to smooth paste.',
+      'Grind rice to slightly coarse paste.',
+      'Mix both batters, add salt, ferment 8-12 hours.',
+      'Pour batter into greased idli molds.',
+      'Steam for 12-15 minutes until cooked.',
+      'Serve hot with sambar and coconut chutney.'
+    ],
+    tags: ['South Indian', 'Breakfast', 'Steamed', 'Healthy', 'Vegetarian'],
+    rating: 4.7,
+    author: 'Chef Kamala',
+    createdAt: new Date('2024-03-03')
+  },
+  {
+    id: '20',
+    title: 'Pav Bhaji',
+    description: 'Spicy mixed vegetable curry served with buttered bread rolls',
+    image: 'https://images.pexels.com/photos/5560850/pexels-photo-5560850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Street Food',
+    difficulty: 'Medium',
+    cookingTime: 45,
+    servings: 4,
+    ingredients: [
+      '8 pav (bread rolls)',
+      '3 large potatoes, boiled',
+      '1 cup mixed vegetables (cauliflower, peas, carrots)',
+      '2 large onions, chopped',
+      '3 tomatoes, chopped',
+      '1 bell pepper, chopped',
+      '3 tbsp pav bhaji masala',
+      '1 tsp red chili powder',
+      '½ tsp turmeric',
+      '4 tbsp butter',
+      '2 tbsp oil',
+      'Fresh cilantro and lemon wedges',
+      'Salt to taste'
+    ],
+    instructions: [
+      'Boil and mash all vegetables together.',
+      'Heat oil and butter, add onions and cook until soft.',
+      'Add tomatoes and bell pepper, cook until mushy.',
+      'Add pav bhaji masala and other spices.',
+      'Add mashed vegetables and mix well.',
+      'Simmer for 15-20 minutes, adding water as needed.',
+      'Butter and toast pav on griddle.',
+      'Serve hot bhaji with pav, onions, and lemon.'
+    ],
+    tags: ['Street Food', 'Mumbai', 'Vegetarian', 'Spicy', 'Popular'],
+    rating: 4.9,
+    author: 'Chef Mumbai',
+    createdAt: new Date('2024-03-04')
+  },
+  {
+    id: '21',
+    title: 'Tandoori Chicken',
+    description: 'Marinated chicken roasted in traditional tandoor oven',
+    image: 'https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Main Course',
+    difficulty: 'Medium',
+    cookingTime: 90,
+    servings: 4,
+    ingredients: [
+      '1 whole chicken, cut into pieces',
+      '1 cup plain yogurt',
+      '2 tbsp lemon juice',
+      '2 tbsp ginger-garlic paste',
+      '2 tsp tandoori masala',
+      '1 tsp red chili powder',
+      '½ tsp turmeric',
+      '1 tsp garam masala',
+      '2 tbsp mustard oil',
+      '1 tsp salt',
+      'Red food color (optional)',
+      'Onion rings and lemon for serving'
+    ],
+    instructions: [
+      'Make deep cuts in chicken pieces.',
+      'Mix yogurt, lemon juice, ginger-garlic paste, and all spices.',
+      'Marinate chicken in this mixture for at least 4 hours.',
+      'Preheat oven to 450°F (230°C).',
+      'Place chicken on wire rack over baking tray.',
+      'Roast for 25-30 minutes until charred and cooked.',
+      'Brush with oil halfway through cooking.',
+      'Serve hot with onion rings, lemon, and mint chutney.'
+    ],
+    tags: ['Indian', 'Chicken', 'Tandoori', 'Grilled', 'Protein-rich'],
+    rating: 4.8,
+    author: 'Chef Ashok',
+    createdAt: new Date('2024-03-05')
+  },
+  {
+    id: '22',
+    title: 'Gulab Jamun',
+    description: 'Soft milk dumplings soaked in rose-flavored sugar syrup',
+    image: 'https://images.pexels.com/photos/7625123/pexels-photo-7625123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Dessert',
+    difficulty: 'Medium',
+    cookingTime: 45,
+    servings: 15,
+    ingredients: [
+      '1 cup milk powder',
+      '¼ cup all-purpose flour',
+      '2 tbsp ghee',
+      '4 tbsp milk',
+      '¼ tsp baking soda',
+      '1½ cups sugar',
+      '1½ cups water',
+      '4-5 cardamom pods',
+      '1 tsp rose water',
+      'Oil for deep frying'
+    ],
+    instructions: [
+      'Mix milk powder, flour, and baking soda.',
+      'Add ghee and milk to form soft dough.',
+      'Make small balls and keep covered.',
+      'Make syrup with sugar, water, and cardamom.',
+      'Add rose water to syrup and keep warm.',
+      'Heat oil on medium heat.',
+      'Fry balls slowly until golden brown.',
+      'Immediately add to warm syrup.',
+      'Let soak for 2 hours before serving.'
+    ],
+    tags: ['Indian', 'Dessert', 'Sweet', 'Festival', 'Traditional'],
+    rating: 4.9,
+    author: 'Chef Sunita',
+    createdAt: new Date('2024-03-06')
+  },
+  {
+    id: '23',
+    title: 'Rajma (Kidney Bean Curry)',
+    description: 'Rich and creamy kidney bean curry, a North Indian favorite',
+    image: 'https://images.pexels.com/photos/5560827/pexels-photo-5560827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Main Course',
+    difficulty: 'Medium',
+    cookingTime: 60,
+    servings: 4,
+    ingredients: [
+      '2 cups dried kidney beans (soaked overnight)',
+      '2 large onions, chopped',
+      '3 tomatoes, chopped',
+      '1 tbsp ginger-garlic paste',
+      '2 tsp cumin powder',
+      '2 tsp coriander powder',
+      '1 tsp red chili powder',
+      '½ tsp turmeric',
+      '1 tsp garam masala',
+      '3 tbsp oil',
+      '2 bay leaves',
+      'Fresh cilantro for garnish',
+      'Salt to taste'
+    ],
+    instructions: [
+      'Pressure cook soaked rajma with salt until tender.',
+      'Heat oil, add bay leaves and cumin seeds.',
+      'Add onions and cook until golden brown.',
+      'Add ginger-garlic paste, cook for 2 minutes.',
+      'Add tomatoes and cook until soft and mushy.',
+      'Add all spices and cook for 3-4 minutes.',
+      'Add cooked rajma with cooking liquid.',
+      'Simmer for 20-25 minutes until thick.',
+      'Garnish with cilantro and serve with rice.'
+    ],
+    tags: ['Indian', 'Vegetarian', 'Protein-rich', 'Punjabi', 'Comfort Food'],
+    rating: 4.7,
+    author: 'Chef Gurdeep',
+    createdAt: new Date('2024-03-07')
+  },
+  {
+    id: '24',
+    title: 'Aloo Gobi',
+    description: 'Dry curry with potatoes and cauliflower cooked with aromatic spices',
+    image: 'https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    category: 'Main Course',
+    difficulty: 'Easy',
+    cookingTime: 30,
+    servings: 4,
+    ingredients: [
+      '1 medium cauliflower, cut into florets',
+      '3 medium potatoes, cubed',
+      '2 onions, sliced',
+      '2 tomatoes, chopped',
+      '1 tbsp ginger-garlic paste',
+      '1 tsp cumin seeds',
+      '1 tsp coriander powder',
+      '½ tsp turmeric',
+      '1 tsp red chili powder',
+      '½ tsp garam masala',
+      '3 tbsp oil',
+      'Fresh cilantro for garnish',
+      'Salt to taste'
+    ],
+    instructions: [
+      'Heat oil, add cumin seeds and let splutter.',
+      'Add onions and cook until translucent.',
+      'Add ginger-garlic paste, cook for 1 minute.',
+      'Add tomatoes and cook until soft.',
+      'Add turmeric, coriander powder, and chili powder.',
+      'Add potatoes and cauliflower, mix well.',
+      'Cover and cook for 15-20 minutes, stirring occasionally.',
+      'Sprinkle garam masala and garnish with cilantro.',
+      'Serve hot with roti or rice.'
+    ],
+    tags: ['Indian', 'Vegetarian', 'Dry Curry', 'Healthy', 'Home-style'],
+    rating: 4.5,
+    author: 'Chef Anita',
+    createdAt: new Date('2024-03-08')
   }
 ];
 
@@ -464,53 +912,108 @@ export const categories = [
   'Salad',
   'Appetizer',
   'Soup',
-  'Beverage'
+  'Beverage',
+  'Bread',
+  'Snack',
+  'Street Food'
 ];
 
 // Comprehensive recipe database for intelligent suggestions
 export const globalRecipeDatabase = [
-  // Indian Dishes
-  'Matar Paneer', 'Butter Chicken', 'Chicken Biryani', 'Vegetable Biryani', 'Dal Makhani',
-  'Palak Paneer', 'Chicken Tikka Masala', 'Aloo Gobi', 'Rajma', 'Chole Bhature',
-  'Samosa', 'Dosa', 'Idli', 'Vada Pav', 'Pav Bhaji', 'Tandoori Chicken',
-  
-  // Indo-Chinese
-  'Vegetable Manchurian', 'Chicken Manchurian', 'Hakka Noodles', 'Fried Rice',
-  'Chili Chicken', 'Gobi Manchurian', 'Spring Rolls', 'Momos',
-  
-  // Italian
-  'Pasta Carbonara', 'Margherita Pizza', 'Lasagna', 'Risotto', 'Spaghetti Bolognese',
-  'Fettuccine Alfredo', 'Penne Arrabbiata', 'Tiramisu', 'Bruschetta',
-  
-  // Chinese
-  'Sweet and Sour Chicken', 'Kung Pao Chicken', 'Mapo Tofu', 'Peking Duck',
-  'Hot Pot', 'Dim Sum', 'Chow Mein', 'General Tso Chicken',
-  
-  // Thai
-  'Pad Thai', 'Green Curry', 'Tom Yum Soup', 'Massaman Curry', 'Som Tam',
-  'Thai Basil Chicken', 'Mango Sticky Rice',
-  
-  // Mexican
-  'Tacos', 'Burritos', 'Quesadillas', 'Enchiladas', 'Guacamole', 'Nachos',
-  'Fajitas', 'Churros', 'Tres Leches Cake',
-  
-  // American
-  'Hamburger', 'Hot Dog', 'Mac and Cheese', 'BBQ Ribs', 'Fried Chicken',
-  'Caesar Salad', 'Clam Chowder', 'Apple Pie', 'Cheesecake',
-  
-  // Japanese
-  'Sushi', 'Ramen', 'Tempura', 'Teriyaki Chicken', 'Miso Soup', 'Yakitori',
-  'Udon', 'Katsu Curry', 'Mochi',
-  
-  // Mediterranean
-  'Greek Salad', 'Hummus', 'Falafel', 'Shawarma', 'Baklava', 'Moussaka',
-  'Tzatziki', 'Dolmas', 'Spanakopita',
-  
-  // French
-  'Croissant', 'French Toast', 'Coq au Vin', 'Ratatouille', 'Crème Brûlée',
-  'Bouillabaisse', 'Quiche Lorraine', 'Macarons',
-  
+  // Breads & Rice
+  'Naan',
+  'Roti',
+  'Chapati',
+  'Aloo Paratha',
+  'Paneer Paratha',
+  'Methi Paratha',
+  'Puri',
+  'Chicken Biryani',
+  'Mutton Biryani',
+  'Veg Biryani',
+  'Hyderabadi Biryani',
+  'Jeera Rice',
+  'Veg Pulao',
+  'Peas Pulao',
+  'Chicken Pulao',
+
+  // Vegetarian Dishes
+  'Paneer Butter Masala',
+  'Palak Paneer',
+  'Chole',
+  'Chickpea Curry',
+  'Rajma',
+  'Kidney Bean Curry',
+  'Aloo Gobi',
+  'Baingan Bharta',
+  'Bhindi Masala',
+  'Mix Veg Curry',
+  'Dum Aloo',
+
+  // Non-Vegetarian Dishes
+  'Butter Chicken',
+  'Chicken Tikka Masala',
+  'Rogan Josh',
+  'Goan Fish Curry',
+  'Bengali Fish Curry',
+  'Egg Curry',
+  'Chicken Korma',
+  'Tandoori Chicken',
+  'Chicken Chettinad',
+
+  // Snacks & Street Food
+  'Samosa',
+  'Pav Bhaji',
+  'Vada Pav',
+  'Dhokla',
+  'Onion Pakora',
+  'Potato Pakora',
+  'Paneer Pakora',
+  'Aloo Tikki',
+  'Bhel Chaat',
+  'Dahi Puri',
+  'Pani Puri',
+
+  // South Indian Dishes
+  'Plain Dosa',
+  'Masala Dosa',
+  'Rava Dosa',
+  'Idli',
+  'Uttapam',
+  'Medu Vada',
+  'Sambar',
+  'Rasam',
+  'Upma',
+  'Lemon Rice',
+
   // Desserts
-  'Chocolate Cake', 'Ice Cream', 'Cookies', 'Brownies', 'Donuts', 'Pancakes',
-  'Waffles', 'Milkshake', 'Smoothie', 'Fruit Salad'
+  'Gulab Jamun',
+  'Rasgulla',
+  'Jalebi',
+  'Kheer',
+  'Besan Ladoo',
+  'Boondi Ladoo',
+  'Kaju Barfi',
+  'Coconut Barfi',
+  'Milk Barfi',
+  'Rasmalai',
+  'Sooji Halwa',
+  'Gajar Halwa',
+
+  // Indo-Chinese
+  'Vegetable Manchurian',
+  'Chicken Manchurian',
+  'Chili Chicken',
+  'Fried Rice',
+  'Hakka Noodles',
+  'Chow Mein',
+
+  // Popular International
+  'Pizza',
+  'Pasta',
+  'Burger',
+  'Sandwich',
+  'Fried Chicken',
+  'Curry',
+  'Noodles'
 ];
