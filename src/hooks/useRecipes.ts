@@ -1,9 +1,10 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Recipe, RecipeFilter } from '../types/Recipe';
-import { mockRecipes, globalRecipeDatabase } from '../data/recipes';
+import { recipeAPI } from '../services/recipeAPI';
 
 export const useRecipes = () => {
-  const [recipes, setRecipes] = useState<Recipe[]>(mockRecipes);
+  const [recipes, setRecipes] = useState<Recipe[]>([]);
+  const [allRecipes, setAllRecipes] = useState<Recipe[]>([]);
   const [filter, setFilter] = useState<RecipeFilter>({
     search: '',
     category: 'All Categories',
@@ -12,6 +13,9 @@ export const useRecipes = () => {
   });
   const [favorites, setFavorites] = useState<string[]>([]);
   const [searchSuggestions, setSearchSuggestions] = useState<string[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [isConnected, setIsConnected] = useState(true);
 
   // Load favorites from localStorage on mount
   useEffect(() => {

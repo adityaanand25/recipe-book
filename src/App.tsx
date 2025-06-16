@@ -3,7 +3,7 @@ import Header from './components/Header';
 import FilterBar from './components/FilterBar';
 import RecipeCard from './components/RecipeCard';
 import RecipeDetail from './components/RecipeDetail';
-import { useRecipes } from './hooks/useRecipes';
+import { useRecipesBackend as useRecipes } from './hooks/useRecipesWithBackend';
 
 type View = 'list' | 'detail';
 
